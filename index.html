@@ -1,81 +1,35 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>Ariba's Portfolio</title>
-  
-    <style>
-        body {
-          background-image: url('img1.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;  
-          background-size: cover;
-        }
-
-        a{  
-            text-decoration: none;  
-            color: green;  
-            font-size: 20px;  
-            padding: 8px;  
-        }  
-        a:hover{  
-            color: blue;  
-        }  
-             h1{  
-        text-align: right;  
-        }
-        
-        section
-        {  
-          border:1px solid pink;  
-          padding:2px;  
-          margin:2px;  
-         }  
-         img {
-         border-radius: 50%;
-    }
-
-</style>
-
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-   
-        <nav align="right">  
-            <a href="index.html">Home</a> |  
-            <a href="certificate.html">Resume</a> |  
-            <a href="about.html">About</a> |  
-            <a href="contactus.html">Contact-Us</a> 
-           
-         </nav>  
-         
-         <hr>
-
-         <br><br><br><br><br><br>
-         <div style=" width: 100%; height: 650px;">  
-           
-            <div style=" width: 50%; height: 550px; float:left;">  
-                <section>  
-                    <h3> Introduction </h3>  
-                    <p> Hello everyone! My name is Jay Narayan Goswami. 
-                        I am from Mohali, Chandigarh. I am a fresh graduate excited to embark in the IT field. 
-                        I’ve completed my initial studies from St. Thomas International School. 
-                        After that I pursued B.Sc. in Computer Science from XYZ Technical Institute. 
-                        I graduated with 88%. Growing up, I have always been attracted to computers and technology.
-                         As soon as I could, I taught myself the skills needed to make a successful career in the IT field. 
-                         During my studies, I have gained knowledge in networking, coding, design, and system security.
-                          I am an organized and motivated individual with a strong sense of ethics and an eagerness to succeed.
-                           With my technical knowledge and strong problem-solving skills, I am confident that I will be a great asset to the company.
-                        Thank you.</p>  
-                    </section>
-            </div>  
-      
-            <div style="width:50%; height: 550px; float:left;">  
-                <img src="img2.jpg" width="60%" height="80%" align="right">
-            </div>  
-        </div>  
-    
-                   
-                
-    </body>
-
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a software engineer with experience in Python, JavaScript, and React. I am also interested in machine learning and artificial intelligence.</p>
+    <img src="me.jpg" alt="My photo">
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="#">Web application that uses machine learning to classify images</a></li>
+      <li><a href="#">React Native app that helps users find parking</a></li>
+      <li><a href="#">Python library for natural language processing</a></li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can contact me at <a href="mailto:me@example.com">me@example.com</a> or <a href="https://twitter.com/me">@me</a>.</p>
+  </section>
+  <script src="script.js"></script>
+</body>
 </html>
